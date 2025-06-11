@@ -17,6 +17,7 @@ function App() {
       </nav>
     </header>
       <Routes>
+      <Route path='/' element={<Inicio />} />
         <Route path='/inicio' element={<Inicio />} />
           <Route path='/contatos' element={<Contatos />} />
       </Routes>
