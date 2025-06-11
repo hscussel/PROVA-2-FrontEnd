@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .contactsContainer{
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+    margin-left: 5vh;
+    margin-top: 2vh;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  
+  h2{
+    padding-left: 1em;
+    padding-top: 2em;
+  }
+  p{
+    margin-top: 2vh;
+    padding-left: 1.5em;
+    padding-bottom: 1em;
+  }
+  .infosContainer{
+    list-style: none;
+    margin-top: 0.2vh;
+
+  }
+  
+  .contactItem {
+    margin-bottom: 1vh;
+    
+  }
+  
+  .contactCard {
+    background-color: #f0f8ff; 
+    border-radius: 8px;
+    border: 1px solid #dbe9f4;
+    margin-left: 2.5vh;
+    padding-top:1.6em;
+    padding-bottom: 2em;
+    width: 95%;
+  }
+  .nameContact{
+    display: block;
+  }
+  .nameContact,.emailContact{
+    margin-left: 1.8vh;
+  }
